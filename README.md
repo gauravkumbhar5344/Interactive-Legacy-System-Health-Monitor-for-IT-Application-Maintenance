@@ -281,21 +281,6 @@ legacy_health_monitor/
 └── .streamlit/
     └── secrets.toml            # API key config (git-ignored)   AS OF NOW PROVIDE DIRECTLY IN A CODE
 ```
-
----
-
-## 🎯 Success Metrics (Hackathon/POC Level)
-
-✅ **MVP Checklist**:
-- [x] Synthetic data generation (logs, metrics, incidents)
-- [x] Real-time anomaly detection (85% accuracy)
-- [x] Health score calculation (0-100)
-- [x] Groq LLM integration (insights + reports)
-- [x] HuggingFace embeddings (semantic context)
-- [x] Interactive Streamlit dashboard
-- [x] CSV/JSON export capability
-- [x] <5 min issue identification (from detection to ranked priority)
-
 ---
 
 ## 📝 License & Attribution

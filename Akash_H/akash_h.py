@@ -32,7 +32,7 @@ st.set_page_config(
 def load_llm():
     """Initialize Groq LLM"""
     return ChatGroq(
-        groq_api_key="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",
+        groq_api_key="API_KEY",
         model_name="llama-3.3-70b-versatile",
         temperature=0,
         max_tokens=500
@@ -298,7 +298,7 @@ def main():
     with st.sidebar:
         st.header("⚙️ Configuration")
         #api_key = st.text_input("Groq API Key", type="password", value=st.secrets.get("GROQ_API_KEY", ""))
-        api_key = "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"
+        api_key = "API_KEY"
 
         if api_key:
             # st.secrets["GROQ_API_KEY"] = api_key
